@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\backround.jpg" />
+    <None Remove="images\call.png" />
+    <None Remove="images\more.png" />
+    <None Remove="images\pp.jpg" />
+    <None Remove="images\sent.png" />
+    <None Remove="images\zoom.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\backround.jpg" />
+    <Resource Include="images\call.png" />
+    <Resource Include="images\more.png" />
+    <Resource Include="images\pp.jpg" />
+    <Resource Include="images\sent.png" />
+    <Resource Include="images\zoom.png" />
+  </ItemGroup>
+
+</Project>
